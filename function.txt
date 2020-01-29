@@ -1,0 +1,52 @@
+def mini():
+  h=distance*10
+  print (h)
+def macro():
+  i=distance*20
+  print (i)
+def prime():
+  j=distance*30
+  print (j)
+source = int(input("enter the number"))
+destination = int(input("enter the number"))
+distance = destination - source
+print (distance)
+print ("mini \n macro \n prime\n")
+
+d = input("display cost")
+e="mini"
+f="macro"
+g="prime"
+while(d==e):
+  mini()
+  break
+while(d==f):
+  macro()
+  break
+
+while(d==g):
+  prime()
+  break
+z = input("do u want to continue")
+w = "yes"
+while (z==w):
+  source=int(input("enter the number"))
+  destination = int(input("enter the number"))
+  distance = destination - source
+  print (distance)
+  print ("mini \n macro \n prime\n")
+  e="mini"
+  f="macro"
+  g="prime"
+  d = input("display cost")
+  while(d==e):
+    mini()
+    break
+
+  while(d==f):
+    macro()
+    break
+
+  while(d==g):
+    prime()
+    break          
