@@ -1,0 +1,11 @@
+import random
+a = int(input(""))
+b = random.randint(1, 20)
+print (b)
+if(a==b):
+  print("win")
+elif(a<b):
+  print("smaller")
+else:
+  print("larger")
+
